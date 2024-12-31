@@ -1,0 +1,23 @@
+.general {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+}
+.kakao {
+  color: black;
+  font-weight: 700;
+  background-color: #fee600;
+  border: 1px solid #fee600;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+}
+.apple {
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 10px 100px 10px 100px;
+}

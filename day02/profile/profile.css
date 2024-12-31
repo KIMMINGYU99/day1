@@ -1,0 +1,10 @@
+.profile {
+  width: 100px;
+  text-align: center;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999%;
+  margin-bottom: 10px;
+}
