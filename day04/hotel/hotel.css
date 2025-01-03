@@ -1,0 +1,42 @@
+.card {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 8px 8px;
+}
+.hotel-1 {
+  background-image: url(hotel1.jpg);
+  background-size: cover;
+}
+.hotel-2 {
+  background-image: url(hotel2.jpg);
+  background-size: cover;
+}
+.hotel-3 {
+  background-image: url(hotel3.jpg);
+  background-size: cover;
+}
+.hotel-4 {
+  background-image: url(hotel4.jpg);
+  background-size: cover;
+}
+.category {
+  font-size: 5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #e6e6e6e1;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.info {
+  font-size: 10px;
+  line-height: 15px;
+  margin-bottom: 3px;
+  color: white;
+}
+.info-2 {
+  color: grey;
+  font-size: 7px;
+  margin-top: 5px;
+}

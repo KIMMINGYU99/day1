@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  width: 100%;
+  /* 부모가 flex이면 형제끼리 사이좋게 넓이 높이 n빵 */
+  height: 100%;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: rgb(64, 255, 47);
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
