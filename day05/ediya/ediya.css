@@ -1,0 +1,58 @@
+.ediya {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.menu {
+  width: fit-content;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.card {
+  position: relative;
+}
+.blur {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+
+  transition: all 0.5s;
+}
+.card:hover > .blur {
+  opacity: 1;
+}
+
+span {
+  font-weight: 700;
+}
+.menu > img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5;
+}
+.menu > img:hover {
+  transform: scale(1.2);
+}
+
+.gift {
+  border: none;
+  width: fit-content;
+  background-color: #272962;
+  color: white;
+  font-size: 13px;
+  padding: 5px 8px;
+}

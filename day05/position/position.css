@@ -1,0 +1,29 @@
+.pallte {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.minibox {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}

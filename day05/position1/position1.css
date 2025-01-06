@@ -1,0 +1,19 @@
+.image {
+  width: 150px;
+  height: 200px;
+  background-image: url(90.jpg);
+  background-size: cover;
+  background-position: 50%;
+  margin: 10px;
+  position: relative;
+}
+.sub {
+  padding: 8px;
+  background-color: red;
+  border-radius: 100%;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

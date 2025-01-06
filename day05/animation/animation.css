@@ -1,0 +1,11 @@
+.bigbox {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  transition: all 1s;
+}
+
+.bigbox:hover {
+  background-color: skyblue;
+  transform: rotate(45deg) scale(2);
+}
