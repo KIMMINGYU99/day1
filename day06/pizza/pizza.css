@@ -1,0 +1,57 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.menu {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: fit-content;
+  padding-bottom: 20px;
+
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  align-items: center;
+
+  font-weight: 700;
+}
+.menu > img {
+  width: 250px;
+  height: 60%;
+  border-radius: 10px 10px 0 0;
+}
+
+.pricecard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.price {
+  font-size: 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 5 px;
+  align-items: center;
+}
+.size {
+  width: 25px;
+  height: 25px;
+  background-color: #ffdc00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+  font-size: 16px;
+}

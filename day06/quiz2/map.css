@@ -1,0 +1,17 @@
+.category {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.pill {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 8px 14px;
+  transition: all 0.5s;
+}
+.pill:hover {
+  background-color: green;
+  color: white;
+  text-decoration: underline;
+}

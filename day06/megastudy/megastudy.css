@@ -1,0 +1,88 @@
+.layout {
+  margin: 40px 0 0 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+}
+.title {
+  font-size: 30px;
+}
+
+.button {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
+.unselected {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.bookrow {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.bookcard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.book {
+  width: 350px;
+  height: 400px;
+  background-color: #e6f4fe;
+  padding: 70px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.book > img {
+  width: 100%;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.book:hover > .blur {
+  opacity: 0.5;
+}
+
+.blurtext {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: all 0.5s;
+}
+.book:hover > .blurtext {
+  opacity: 1;
+}

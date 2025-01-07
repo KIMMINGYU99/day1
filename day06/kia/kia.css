@@ -1,0 +1,93 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.w-7 {
+  font-weight: 700;
+}
+.between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 30px 0 0 30px;
+  width: 350px;
+
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 30px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.card > div {
+  width: 100%;
+}
+
+.rank {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-weight: normal;
+}
+
+.mode {
+  height: 50px;
+  color: grey;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.info {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.answer {
+  color: grey;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+hr {
+  width: 100%;
+}
+
+.priceTag {
+  display: flex;
+  justify-content: end;
+}
+.price {
+  font-size: 20px;
+}
+.won {
+  font-size: 12px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+button {
+  width: 100px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.black {
+  background-color: black;
+  color: white;
+}
