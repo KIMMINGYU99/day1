@@ -1,0 +1,36 @@
+.layout {
+  width: 500px;
+  overflow: scroll;
+
+  background-color: black;
+}
+.layout > .btn_layout {
+  width: 1000px;
+
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+.btn_layout > button {
+  padding: 15px 20px;
+  width: 100px;
+
+  font-weight: 700;
+  font-size: 10px;
+  color: grey;
+
+  background-color: black;
+
+  border: 1px solid grey;
+  border-radius: 30px;
+}
+
+.layout > .btn_layout > button:hover {
+  background-color: white;
+  color: black;
+}
+
+.layout::-webkit-scrollbar {
+  display: none;
+}

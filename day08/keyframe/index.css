@@ -1,0 +1,28 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: pink;
+  animation: flip-horizontal-bottom 1s cubic-bezier(1, -0.01, 1, -0.01) infinite;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+}
+@keyframes flip-horizontal-bottom {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+}

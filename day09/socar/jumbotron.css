@@ -1,0 +1,22 @@
+.jumbotron {
+  height: 100vh;
+  background-image: url(socar.jpg);
+  object-fit: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jumbotron > .jumbotron_description {
+  width: 100%;
+  max-width: 800px;
+
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+
+  color: #fff;
+  text-align: center;
+  font-size: 70px;
+  line-height: 90px;
+}

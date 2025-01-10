@@ -1,0 +1,72 @@
+main > .content {
+  height: 80vh;
+  margin-bottom: 200px;
+}
+main > .content > .card {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+  font-weight: 700;
+}
+main > .content > .card > .card_title {
+  width: 100%;
+  font-size: 40px;
+  color: #373553;
+}
+.blueDot {
+  color: #0bb8ff;
+  font-weight: 700;
+  font-size: 100px;
+}
+main > .content > .card > .card_description {
+  width: 100%;
+  color: #aaaaaa;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+main > .content > .card > .card_img {
+  width: 100%;
+  object-fit: cover;
+  padding-bottom: 100px;
+}
+.card_img > img {
+  width: 100%;
+}
+
+.sec_2 {
+  height: 50vh;
+  padding-top: 150px;
+  background-color: #f7f8f9;
+  overflow: hidden;
+  position: relative;
+}
+
+.sec_2 > .sec_desciption {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-size: 40px;
+  color: grey;
+}
+
+.blueSec {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: -350px;
+  top: 0;
+  height: 100%;
+  background-color: #0bb8ff;
+  transform: skewX(-30deg);
+}
