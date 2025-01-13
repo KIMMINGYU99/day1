@@ -1,0 +1,47 @@
+header {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+
+  position: fixed;
+  top: 0;
+
+  left: 0;
+  right: 0;
+}
+header > .contents {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 30px;
+}
+header > .contents > .logo {
+  font-size: 30px;
+}
+
+header > .contents > .menu-list {
+  display: flex;
+  gap: 30px;
+}
+header > .contents > .menuBar {
+  display: none;
+
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  header > .contents > .menu-list {
+    display: none;
+  }
+  header > .contents > .menuBar {
+    display: block;
+  }
+}

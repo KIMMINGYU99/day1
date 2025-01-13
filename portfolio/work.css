@@ -1,0 +1,94 @@
+.work {
+  width: 100%;
+  height: auto;
+}
+.work_content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.work_content > .title {
+  font-size: 30px;
+}
+
+.work_grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  margin-bottom: 100px;
+}
+
+.work_grid > .work_card {
+  border: 1px solid grey;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  font-size: 100px;
+
+  padding: 50px;
+  position: relative;
+}
+
+.work_card > .blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+
+  background-color: blue;
+  opacity: 0;
+
+  transition: all 0.5s;
+}
+.work_card > .blur_text {
+  position: absolute;
+  top: 0;
+
+  background-color: transparent;
+
+  width: 100%;
+  height: 100%;
+
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  opacity: 0;
+
+  transition: all 0.5s;
+}
+.work_card > .blur_text > .nothing {
+  font-weight: 700;
+}
+
+.work_card:hover .blur {
+  opacity: 0.5;
+}
+.work_card:hover .blur_text {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .work {
+    margin-top: 110vh;
+  }
+  .work_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .work_grid > .work_card {
+    padding: 200px 0;
+  }
+}
