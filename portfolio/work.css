@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 768px) {
   .work {
-    margin-top: 110vh;
+    margin-top: 200vh;
   }
   .work_grid {
     display: flex;
